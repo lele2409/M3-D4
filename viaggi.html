@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenzia viaggi</title>
+  <link href="navbar.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="offcanvas.css" rel="stylesheet">
+  <link href="features.css" rel="stylesheet">
+  <style>
+    .red {
+      background-color: red;
+      color: aliceblue;
+    }
+
+    .w-66 {
+      width: 66%;
+    }
+
+    .w-33 {
+      width: 33%;
+    }
+
+    .margin-left {
+      margin-left: 50em;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="col-1"
+            src="https://s.tmimgcdn.com/scr/1200x627/216600/identita-del-logo-di-viaggio-in-aereo_216661-original.jpg"
+            alt=""> Viaggiamo.it</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="p-3 mb-1 bg-light rounded-3">
+        <div class="container-fluid py-3">
+          <h1 class="display-5 fw-bold">Viaggiamo.it</h1>
+          <img src="https://www.eccolecco.it/wp-content/uploads/bellano-dal-lago.jpg" alt="">
+          <p class="col-md-8 fs-4">Viaggiare non è mai stato così semplice!</p>
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">OFFERTA DELLA SETTIMANA!</h2>
+
+        <div id="collapse-week" class="row row-cols-2 row-cols-md-3 row-cols-lg-4 align-items-stretch g-4 py-5 collapse show">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://heymondo.it/blog/wp-content/uploads/2021/08/cosa-vedere-in-Messico.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trascorri 4 giorni in Messico!</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Messico</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTk0OTU3Mjc5NTE3MjIyMDUw/gettyimages-1390815938.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tokio ti aspetta</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Tokio</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <button class="btn-primary my-2" type="button" data-bs-toggle="collapse" aria-controls="collapse-week"
+        data-bs-target="#collapse-week">Nascondi/mostra sezione</button>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">WELCOME SUMMER!</h2>
+
+        <div id="collapse-summer"
+          class="row row-cols-2 row-cols-md-3 row-cols-lg-6 align-items-stretch g-4 py-5 collapse show">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://heymondo.it/blog/wp-content/uploads/2021/08/cosa-vedere-in-Messico.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trascorri 4 giorni in Messico!</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Messico</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTk0OTU3Mjc5NTE3MjIyMDUw/gettyimages-1390815938.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tokio ti aspetta</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Tokio</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <button class="btn-primary my-2" type="button" data-bs-toggle="collapse" aria-controls="collapse-summer"
+        data-bs-target="#collapse-summer">Nascondi/mostra sezione</button>
+      <div id="collapse-day" class="d-none d-md-block collapse show">
+        <h2>OFFERTA DEL GIORNO!</h2>
+        <div class="col-12 d-flex">
+          <div class="card shadow-sm w-66 img">
+            <img
+              src="https://visitabudhabi.ae/-/media/project/vad/where-to-go/about-abu-dhabi/uae-capital-and-surrounds/new-rebrand-images/header/uae-capital-and-surrounds-header.jpg"
+              alt="abu-dhabi">
+          </div>
+          <div class="card-body w-33">
+            <p class="card-text"><b>ABU-DHABI</b><br>Date: <b></b><br>Prezzo: <br> Descrizione:</p>
+            <textarea id="recensione" class="col-12 collapse-prefer" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+      <button class="btn-primary my-2" type="button" data-bs-toggle="collapse" aria-controls="collapse-day"
+        data-bs-target="#collapse-day">Nascondi/mostra sezione</button>
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">LAST MINUTE!!</h2>
+
+        <div id="collapse-last" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 collapse show">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.igrandiviaggi.it/media/IMAGES/ORIGINAL/viaggi-maldive-vacanze.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bagnetto di Natale?</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://heymondo.it/blog/wp-content/uploads/2021/08/cosa-vedere-in-Messico.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trascorri 4 giorni in Messico!</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Messico</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg img"
+              style="background-image: url(https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTk0OTU3Mjc5NTE3MjIyMDUw/gettyimages-1390815938.jpg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tokio ti aspetta</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Tokio</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <button class="btn-primary col-3" type="button" data-bs-toggle="collapse" aria-controls="collapse-last"
+          data-bs-target="#collapse-last">Nascondi/mostra sezione</button>
+
+        <div class="my-3 p-3 bg-body rounded shadow-sm col-12">
+          <h6 class="border-bottom pb-2 mb-0">Testimonial</h6>
+          <div id="collapse-feed" class="collapse show">
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#007bff" /><text x="50%" y="50%" fill="#007bff"
+                  dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some representative placeholder content, with some information about this user. Imagine this being some
+                sort of status update, perhaps?
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#e83e8c" /><text x="50%" y="50%" fill="#e83e8c"
+                  dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                Some more representative placeholder content, related to this other user. Another status update,
+                perhaps.
+              </p>
+            </div>
+            <div class="d-flex text-muted pt-3">
+              <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#6f42c1" /><text x="50%" y="50%" fill="#6f42c1"
+                  dy=".3em">32x32</text>
+              </svg>
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">@username</strong>
+                This user also gets some representative placeholder content. Maybe they did something interesting, and
+                you really want to highlight this in the recent updates.
+              </p>
+            </div>
+          </div>
+          <small class="d-block text-end mt-3">
+            <a href="#">All updates</a>
+          </small>
+          <button class="btn-primary col-3" type="button" data-bs-toggle="collapse" aria-controls="collapse-feed"
+            data-bs-target="#collapse-feed">Nascondi/mostra sezione</button>
+
+        </div>
+      </div>
+    </div>
+    <input class="btn red" type="button" value="Cancella tutte le Card!" onclick="removeCard()"><b><br>
+      <p>Questa pagina contiene <span id="contatore"></span></p>
+    </b>
+    <footer class="pt-3 mt-4 text-muted border-top">
+      &copy; 2023 Viaggiamo.it Via Missaglia, 87 - Milano
+      <button class="btn-primary margin-left" type="button" data-bs-toggle="collapse" aria-controls="info"
+        data-bs-target="#info">Contattaci!</button>
+      <p id="info" class="text-center collapse">Mandaci una mail per info!
+        <a href="mailto:viaggiamo.it">Viaggiamo.it</a>
+      </p>
+    </footer>
+    </div>
+  </main>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="viaggi.js"></script>
+</body>
+
+</html>
